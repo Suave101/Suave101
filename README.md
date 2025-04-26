@@ -1,16 +1,23 @@
-## Hi there 👋
+## >>> sudo define -d Alexander
+```python
+class Alexander(Developer):
+    def __init__(self):
+        super().__init__()
+        self.name = "Alexander"
+        self.age = 18
+        self.work = ["HSU Educational Foundation", "Navarre 3D Printing", "Independent Contractor"]
+        self.education = ["Fort Walton Beach High School", "Florida Institute of Technology"]
+        self.hobbies = ["Programming", "CAD Modeling", "Playing Saxophone"]
 
-<!--
-**Suave101/Suave101** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def currentLocation(self):
+        return "Fort Walton Beach, Florida"
 
-Here are some ideas to get you started:
+    def nextLocation(self):
+        return "Melbourne, Florida"
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def currently(self):
+        return {
+            "education": ["AP Calculus AB", "AP Physics", "PLTW Capstone Engineering"],
+            "tinkering": ["Low Level Programming", "3D Printing", "CAD Modeling"]
+        }
+```
