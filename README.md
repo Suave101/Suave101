@@ -1,5 +1,5 @@
 ![Banner with Blur Highlights Github](https://github.com/user-attachments/assets/dc2532d8-eb2e-41f5-b0c3-544821de33ca)
-## >>> sudo define Alexander
+# >>> sudo define Alexander
 ```python
 class Alexander(Developer):
     def __init__(self):
