@@ -6,19 +6,17 @@ class Alexander(Developer):
         super().__init__()
         self.name = "Alexander"
         self.age = 18
-        self.work = ["HSU Educational Foundation", "Navarre 3D Printing", "Independent Contractor"]
-        self.education = ["Fort Walton Beach High School", "Florida Institute of Technology"]
+        self.work = ["HSU Educational Foundation", "Independent Contractor", "Navarre 3D Printing"]
+        self.education = "Florida Institute of Technology"
+        self.researchLab = "Florida Institute of Technology ASSIST Lab"
         self.hobbies = ["Programming", "CAD Modeling", "Playing Saxophone"]
 
     def currentLocation(self):
-        return "Fort Walton Beach, Florida"
-
-    def nextLocation(self):
         return "Melbourne, Florida"
 
     def currently(self):
         return {
-            "education": ["AP Calculus AB", "AP Physics", "PLTW Capstone Engineering"],
-            "tinkering": ["Low Level Programming", "3D Printing", "CAD Modeling"]
+            "education": ["Fundamentas of Software Development 2", "Calculus 2", "Applied Discrete Mathematics"],
+            "tinkering": ["Computer Vision", "Continuous Learning", "3D Printing", "CAD Modeling"]
         }
 ```
