@@ -5,10 +5,10 @@ class Alexander(Developer):
     def __init__(self):
         super().__init__()
         self.name = "Alexander"
-        self.age = 18
-        self.work = ["HSU Educational Foundation", "Independent Contractor", "Navarre 3D Printing"]
         self.education = "Florida Institute of Technology"
+        self.major = "Computer Science"
         self.researchLab = "Florida Institute of Technology ASSIST Lab"
+        self.work = ["HSU Educational Foundation", "Independent Contractor", "Navarre 3D Printing"]
         self.hobbies = ["Programming", "CAD Modeling", "Playing Saxophone"]
 
     def currentLocation(self):
