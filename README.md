@@ -16,7 +16,7 @@ class Alexander(Developer):
 
     def currently(self):
         return {
-            "education": ["Fundamentas of Software Development 2", "Calculus 2", "Applied Discrete Mathematics"],
+            "education": ["Data Structures and Algorithms", "Calculus 2", "Applied Discrete Mathematics"],
             "tinkering": ["Computer Vision", "Continuous Learning", "3D Printing", "CAD Modeling"]
         }
 ```
