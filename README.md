@@ -8,6 +8,11 @@ class Alexander(Developer):
         self.education = "Florida Institute of Technology"
         self.major = "Computer Science"
         self.researchLab = "Florida Institute of Technology ASSIST Lab"
+        self.currentJob = {
+                            "Title": "Research Assistant",
+                            "Employer": "Florida Institute of Technology ASSIST Lab",
+                            "Projects": ["SysMod Studio Workforce Development", "NASA ULI Transcend", "Causual Mechanistic Interpretability", "Dataset Distribution Shift Heuristics"]
+                            }
         self.work = ["Dynamic Software Solutions", "Independent Contractor", "Navarre 3D Printing", "Florida Institute of Technology ASSIST Lab"]
         self.hobbies = ["Programming", "CAD Modeling", "Playing Saxophone"]
 
@@ -17,6 +22,6 @@ class Alexander(Developer):
     def currently(self):
         return {
             "education": ["Data Structures and Algorithms 2", "Calculus 3", "Intro to Artificial Intelligence"],
-            "tinkering": ["Computer Vision", "Continuous Learning", "3D Printing", "CAD Modeling", "SOAR Cognitive Architecture"]
+            "tinkering": ["Computer Vision", "Continual Learning", "3D Printing", "CAD Modeling", "SOAR Cognitive Architecture"]
         }
 ```
